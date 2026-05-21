@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import Header from "@/components/layout/Header";
 import Hero from "@/components/home/Hero";
 import Menu from "@/components/home/Menu";
-import SignatureProperties from "@/components/home/SignatureProperties";
+
 import MapSection from "@/components/home/MapSection";
 import Footer from "@/components/layout/Footer";
 import LuxuryLoader from "@/components/ui/LuxuryLoader";
@@ -34,7 +34,6 @@ export default function HomePage() {
       <Gallery/>
       <Menu/>
       <BrewerySection />
-      <SignatureProperties />
       <MapSection />
       <Footer />
     </main>

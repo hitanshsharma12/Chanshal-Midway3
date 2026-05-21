@@ -116,6 +116,22 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+            {/* Bottom Copyright Bar */}
+      <div className="mt-16 pt-6 border-t border-gray-800/60 flex flex-col md:flex-row items-center justify-between gap-4">
+        
+        {/* Left Side */}
+        <p className="text-[11px] tracking-[0.18em] uppercase text-gray-500 text-center md:text-left">
+          © {new Date().getFullYear()} Chanshal Midway. All Rights Reserved.
+        </p>
+
+        {/* Right Side */}
+        <p className="text-[11px] tracking-[0.18em] uppercase text-gray-500 text-center md:text-right">
+          Made with Love by{" "}
+          <span className="text-[#c5a880] hover:text-[#d6b98c] transition-colors duration-300">
+            Hi-Tech Rohru
+          </span>
+        </p>
+      </div>
     </footer>
   );
 };
